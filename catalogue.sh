@@ -4,7 +4,7 @@ source ./common.sh
 app_name=catalogue
 
 check_root
-app_system_user_setup
+app_setup
 node_js_setup
 systemd_setup
 
@@ -22,7 +22,7 @@ else
     echo -e "Data is already loaded ... $Y SKIPPING $N"
 fi
 
-print_time
+print_time 
 
 
 
